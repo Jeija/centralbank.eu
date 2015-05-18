@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>QR Generator</title>
+	<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+	<link rel="stylesheet" href="css/genqr.css" type="text/css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jspdf.min.js"></script>
+	<script src="js/qr.min.js"></script>
+	<script src="js/genqr.js"></script>
+</head>
+<body>
+	<div id="content">
+		<a href="index.html"><img id="logo" src="img/logo.png"></a>
+		<div id="heading">QR-Code Generator</div>
+		<div id="description">Wenn du es Käufern an deinem Stand einfach machen willst oder für eine Organisation Geld sammeln willst, kannst du hier ein Blatt generieren, auf dem ein QR-Code groß sichtbar ist. Dieses kannst du dann in der Umgebung deines Standes oder für Spendensammlungen im ganzen HöGy aufhängen. Zum Bezahlen muss dann nur noch der Code mit dem Smartphone gescannt werden.<br/>
+		Die Kontonummer findest du auf der Ausweiskarte deines Unternehmens.
+		</div>
+		<table id="datatable">
+			<tr><td>Überschrift</td><td><input type="text" id="pageheading"></td></tr>
+			<tr><td>Kontonummer</td><td><input type="text" id="qrid"></td></tr>
+			<tr><td>Zusatztext</td><td><textarea placeholder="optional" id="text"></textarea></td></tr>
+		</table>
+		<input id="generate" type="button" value="PDF-Download">
+	</div>
+</body>
+</html>
