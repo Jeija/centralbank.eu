@@ -1,4 +1,4 @@
-var manifestURL = "http://192.168.0.100:8080/fxos/package.manifest";
+var manifestURL = "http://centralbank.eu/fxos/package.webapp";
 
 $(function () {
 	$("#fxos_install").click(function () {
