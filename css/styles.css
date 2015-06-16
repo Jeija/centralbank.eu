@@ -345,6 +345,10 @@ aside {
 	margin-top:10px;
 }
 
+.ytrow {
+	margin-top:60px;
+}
+
 ::-moz-selection {
 	text-shadow:none;
 	color:#fff;
