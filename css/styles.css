@@ -244,6 +244,14 @@ aside {
 	margin-bottom:20px;
 }
 
+.btn-play {
+	padding:10px 20px !important;
+}
+
+.btn-play img {
+	width:200px;
+}
+
 .app-radio {
 	width:75%;
 	margin:auto;
@@ -337,12 +345,16 @@ aside {
 }
 
 .btn-logo img {
-	height:40px;
+	height:20px;
 	margin-right:20px;
 }
 
 .btn-download {
 	margin-top:10px;
+}
+
+.btn-play {
+	padding:20px 40px;
 }
 
 .ytrow iframe {
