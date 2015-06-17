@@ -345,8 +345,8 @@ aside {
 	margin-top:10px;
 }
 
-.ytrow {
-	margin-bottom:30px;
+.ytrow iframe {
+	padding-bottom:10px;
 }
 
 ::-moz-selection {
