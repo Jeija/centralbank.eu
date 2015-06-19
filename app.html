@@ -37,6 +37,9 @@
 						<a class="page-scroll" href="#android">Android</a>
 					</li>
 					<li>
+						<a class="page-scroll" href="#ios">iOS</a>
+					</li>
+					<li>
 						<a class="page-scroll" href="#firefox">Firefox</a>
 					</li>
 					<li>
@@ -77,10 +80,10 @@
 		<hr class="primary">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-offset-3 col-xs-6  col-sm-3 col-sm-offset-2 col-lg-2 col-lg-offset-4">
+				<div class="col-xs-offset-3 col-xs-6  col-sm-3 col-sm-offset-2 col-lg-2 col-lg-offset-3">
 					<img src="img/app_pay.png" class="img-responsive">
 				</div>
-				<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-5 col-lg-3">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-5 col-lg-4">
 					<p>
 						Android und Android-basierte Systeme (z.B. CyanogenMod) werden ab Android-Version 4.0 unterstützt. Unter Android ist der QR-Code-Scanner deutlich perfomanter als unter allen anderen Plattformen. Die App ist ab sofort auch im Play Store verfügbar! Klicke einfach auf das Google Play-Logo zum Download!
 					</p>
@@ -92,32 +95,60 @@
 					<p>
 						Wenn du kein Google Play auf deinem Handy hast, kannst du auch direkt die APK herunterladen. Dazu musst du in den Einstellungen die "Installation von Apps aus anderen Quellen" zulassen. Sollte dein Smartphone / Tablet einen x86-Prozessor haben (auf der Rückseite ist häufig das Intel-Logo aufgedruckt), musst du die Android x86-Version herunterladen. Ansonsten ist für die <i>meisten Geräte die Android ARM-Version</i> richtig.
 					</p>
+					<div class="text-center">
+						<a class="btn btn-default btn-logo btn-download" href="android/arm_v3.apk">
+							<img src="img/android_logo.png">
+							ARM
+						</a>
+						<a class="btn btn-default btn-logo btn-download" href="android/x86_v3.apk">
+							<img src="img/android_logo.png">
+							x86
+						</a>
+					</div>
 				</div>
 			</div>
-			<div class="row text-center">
-				<a class="btn btn-default btn-logo btn-download" href="android/arm_v3.apk">
-					<img src="img/android_logo.png">
-					Download für ARM
-				</a>
-				<a class="btn btn-default btn-logo btn-download" href="android/x86_v3.apk">
-					<img src="img/android_logo.png">
-					Download für x86
-				</a>
+		</div>
+	</section>
+
+	<section id="ios">
+		<h2 class="section-heading text-center">Apple iPhone, iPad und iPod Touch</h2>
+		<hr class="primary">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-offset-2 col-lg-offset-3 col-xs-10 col-xs-offset-1 col-sm-5 col-lg-4">
+					<p>
+						iPhone, iPod Touch und iPad werden ab iOS 6.0 unterstützt. Die App für iOS kannst du einfach im Apple App Store unter dem Namen "HöGyCoin" finden oder auf diesen Button klicken, um die App dort zu öffnen:
+					</p>
+					<div class="text-center">
+						<a href="https://itunes.apple.com/de/app/hogycoin/id1006134322">
+							<img class="btn-appstore" src="img/appstore.svg">
+						</a>
+					</div>
+					<p>
+						Durch die Installation der App auf iOS kannst du gegenüber der Online-Version auch von deutlich besserer Performance beim Scannen von QR-Codes profitieren. Stelle bitte sicher, dass du die iOS-App schon vor Projektbeginn herunterlädst, wenn du keinen mobilen Internetzugang hast, da wir die App nicht manuell installieren können.
+					</p>
+				</div>
+				<div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-3 col-lg-2">
+					<img src="img/app_transaction.png" class="img-responsive app-radio">
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<section id="firefox">
-		<h2 class="section-heading text-center">Firefox OS / Firefox auf anderen Systemen</h2>
+		<h2 class="section-heading text-center">Firefox OS, Windows, Linux, Mac OS X</h2>
 		<hr class="primary">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-offset-2 col-lg-offset-4 col-sm-5 col-lg-3">
+				<div class="col-sm-offset-2 col-lg-offset-3 col-xs-offset-3 col-xs-6 col-sm-3 col-lg-2">
+					<img src="img/app_radio.png" class="img-responsive app-radio">
+				</div>
+				<div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-5 col-lg-4">
 					<p>
 						Firefox OS und Plattformen, auf denen sich Firefox installieren lässt (Windows ab Windows XP SP3, Mac OS X, Linux, FreeBSD, <b>Android schon ab 2.3</b>, Cyanogenmod, einige Tizen/Maemo-Geräte) werden durch Firefox Web Apps unterstützt!
 					</p>
 					<p>
-						Um die App zu installieren, musst du einfach die HöGyCoin-Seite im Firefox Marketplace mit Firefox besuchen und auf "Install" klicken. Wenn dein System dann unterstüzt wird, fragt dich Firefox, ob du die App installieren möchtest.
+						Um die App zu installieren, musst du einfach die HöGyCoin-Seite im Firefox Marketplace im Firefox-Browser besuchen und auf "Install" klicken. Wenn dein System dann unterstüzt wird, fragt dich Firefox, ob du die App installieren möchtest.
 					</p>
 					<div class="text-center">
 						<a href="https://marketplace.firefox.com/app/h%C3%B6gycoin" class="btn btn-default btn-logo btn-download">
@@ -129,9 +160,6 @@
 						<a id="fxos_install">Von hier mit Firefox installieren (nur PC)</a>
 					</div>
 				</div>
-				<div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-3 col-lg-2">
-					<img src="img/app_radio.png" class="img-responsive app-radio">
-				</div>
 			</div>
 		</div>
 	</section>
@@ -141,19 +169,16 @@
 		<hr class="primary">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-offset-1 col-lg-offset-3 col-sm-4 col-lg-3">
-					<img src="img/other.png" class="img-responsive app-radio">
-				</div>
-				<div class="col-sm-5 col-lg-3">
+				<div class="col-sm-offset-2 col-lg-offset-3 col-sm-5 col-lg-3">
 					<p>
 						Dein Betriebssystem war bisher nicht dabei? Überprüfe bitte zuerst, ob du nicht irgendwie Firefox auf dem Gerät installiert bekommst. Wenn ja, kannst du nämlich einfach die <a href="#firefox" class="page-scroll">Firefox-App</a> installieren.
 					</p>
 					<p>
 						Wenn auch das nicht funktioniert, stelle bitte sicher, dass du einen <i>aktuellen Browser</i> hast. Dann kannst du per Mobilfunk (nicht über das Schul-WLAN) auf die Online-Version der App zugreifen, diese ist allerdings funktional eingeschränkt und langsamer!
 					</p>
-					<p>
-						Eine iOS-App ist aufgrund der enormen Zusatzkosten nicht verfügbar, iOS-Nutzer können sich die App selbst aus dem Quellcode erstellen oder auf die Online-Version zugreifen.
-					</p>
+				</div>
+				<div class="col-sm-4 col-lg-3">
+					<img src="img/other.png" class="img-responsive app-radio">
 				</div>
 			</div>
 			<div class="row text-center">
