@@ -39,18 +39,18 @@ $(function () {
 	});
 });
 
-function draw(id, qrid, outgoing) {
+function draw(id, buyer, outgoing) {
 	var newdiv = $("<div>").appendTo($("#map")).addClass("transaction");
 	newdiv.css({
 		left: (coords[id].x - 10) + "px",
 		top: (coords[id].y - 10) + "px",
 		cursor: "pointer"
 	});
-	if (qrid != "")
+	if (buyer != "")
 	{
 		newdiv.click(function() {
-			showPath(qrid);
-			$("#qrid").val(qrid);
+			showPath(buyer);
+			$("#qrid").val(buyer);
 		});
 	}
 	setTimeout(function() {newdiv.remove()}, 2000);
@@ -77,12 +77,12 @@ setInterval(function () {
 		var trTimestamp = new Date(tr.time).getTime() + 1000 * 60 * 60 * 2;
 		if (!(trTimestamp > oldTimestamp && trTimestamp <= newTimestamp)) return;
 
-		if (coords[tr.sender] !== undefined && coords[tr.sender].x) {
+		/*if (coords[tr.sender] !== undefined && coords[tr.sender].x) {
 			draw(tr.sender, tr.recipient, true);
-		}
+		}*/
 
 		if (coords[tr.recipient] !== undefined && coords[tr.recipient].x) {
-			draw(tr.recipient, tr.recipient, false);
+			draw(tr.recipient, tr.sender, false);
 		}
 	});
 }, INTERVAL);
