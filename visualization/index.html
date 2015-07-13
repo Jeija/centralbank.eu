@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Schule als EU - Zentralbank - Visualisierung</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+	<div id="visual">
+		<div id="controls">
+			<a href="http://centralbank.eu"><img src="cb.png" id="cb_logo" /></a>
+			<div id="speed_container">
+				Geschwindigkeit<br />
+				<select id="speed">
+					<option value="0">Angehalten</option>
+					<option value="1">Echtzeit</option>
+					<option value="2">2x</option>
+					<option value="5">5x</option>
+					<option value="10" selected>10x</option>
+					<option value="30">30x</option>
+					<option value="100">100x</option>
+				</select>
+				<div id="explanation">
+					Die genaue Uhrzeit kann unten eingestellt werden.
+				</div>
+			</div>
+			<div id="path_container">
+				Pfad von Person<br/>
+				<input id="qrid" placeholder="Kontonummer" type="text" size="16" />
+				<input type="button" value="Pfad anzeigen" id="showpath">
+				<input type="button" value="Pfad löschen" id="clearpath">
+			</div>
+
+			<div id="days">
+				<div class="day" data-date="2015-07-01T08:00:00.000Z">
+					<div class="daystring">Mi</div>
+					<div class="timestring">10 Uhr</div>
+				</div>
+				<div class="day" data-date="2015-07-02T08:00:00.000Z">
+					<div class="daystring">Do</div>
+					<div class="timestring">10 Uhr</div>
+				</div>
+				<div class="day" data-date="2015-07-03T08:00:00.000Z">
+					<div class="daystring">Fr</div>
+					<div class="timestring">10 Uhr</div>
+				</div>
+				<div class="day" data-date="2015-07-04T08:00:00.000Z">
+					<div class="daystring">Sa</div>
+					<div class="timestring">10 Uhr</div>
+				</div>
+			</div>
+		</div>
+		<div id="map">
+			<canvas id="path" height="622" width="1000"></canvas>
+		</div>
+		<div id="date_center">
+			Aktuelle Zeit (UTC): <input type="text" id="date" size="24" value="2015-07-03T08:00:00.000Z" />
+		</div>
+	</div>
+</body>
+</html>

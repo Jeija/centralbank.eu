@@ -1,0 +1,612 @@
+{
+  "kirche": {
+    "name":"3D-Kirche",
+    "x":435,
+    "y":589
+  },
+  "bambini": {
+    "name":"Bambini au Café",
+    "x":null,
+    "y":null
+  },
+  "italiano": {
+    "name":"Bar da Italiano",
+    "x":900,
+    "y":463
+  },
+  "beach": {
+    "name":"Beach Paradise",
+    "x":710,
+    "y":261
+  },
+  "bella": {
+    "name":"Bella Italia",
+    "x":816,
+    "y":202
+  },
+  "biene": {
+    "name":"Bienen-Shop",
+    "x":823,
+    "y":187
+  },
+  "blockhouse": {
+    "name":"Blockhouse",
+    "x":692,
+    "y":305
+  },
+  "borat": {
+    "name":"Borats Bruzzel Bude",
+    "x":180,
+    "y":184
+  },
+  "boulangerie": {
+    "name":"Boulangerie",
+    "x":724,
+    "y":262
+  },
+  "buon": {
+    "name":"Buon Appetitto",
+    "x":907,
+    "y":477
+  },
+  "_e42a3d": {
+    "name":"Buon Appetitto",
+    "x":907,
+    "y":477
+  },
+  "wohlgenuss": {
+    "name":"Bäckerei Wohlgenuss",
+    "x":271,
+    "y":155
+  },
+  "wurm": {
+    "name":"Bücherwurm",
+    "x":630,
+    "y":169
+  },
+  "cash": {
+    "name":"Ca$ino",
+    "x":627,
+    "y":154
+  },
+  "fioretta": {
+    "name":"Café Fioretta",
+    "x":883,
+    "y":516
+  },
+  "cakepop": {
+    "name":"Cake-Pop-Company",
+    "x":249,
+    "y":323
+  },
+  "candy": {
+    "name":"Candy-Floss-Shop",
+    "x":128,
+    "y":134
+  },
+  "floss": {
+    "name":"Candy-Floss-Shop",
+    "x":128,
+    "y":134
+  },
+  "internationale": {
+    "name":"Casino Internationale",
+    "x":697,
+    "y":134
+  },
+  "cay": {
+    "name":"Cay Flohmarkt",
+    "x":364,
+    "y":561
+  },
+  "center4all": {
+    "name":"Center for All",
+    "x":267,
+    "y":112
+  },
+  "muffin": {
+    "name":"Ceydas-Muffin-Stand",
+    "x":null,
+    "y":null
+  },
+  "cinebar": {
+    "name":"CineBar",
+    "x":118,
+    "y":202
+  },
+  "cocktailde": {
+    "name":"Cocktail World DE",
+    "x":270,
+    "y":183
+  },
+  "cocktailit": {
+    "name":"Cocktail World IT",
+    "x":823,
+    "y":216
+  },
+  "cookie": {
+    "name":"Cookie & Co.",
+    "x":889,
+    "y":547
+  },
+  "frutta": {
+    "name":"Coppe di Frutta",
+    "x":895,
+    "y":494
+  },
+  "creperie": {
+    "name":"Crêperie",
+    "x":737,
+    "y":344
+  },
+  "jakob": {
+    "name":"Crêperie",
+    "x":671,
+    "y":361
+  },
+  "bbg": {
+    "name":"Das Bratwurstbratgerät",
+    "x":270,
+    "y":201
+  },
+  "de": {
+    "name":"Deutschland",
+    "x":37,
+    "y":582
+  },
+  "diables": {
+    "name":"Diables d'encre",
+    "x":696,
+    "y":292
+  },
+  "banana": {
+    "name":"Dolce & Banana",
+    "x":740,
+    "y":363
+  },
+  "dolce": {
+    "name":"Dolce ghiaccio magia",
+    "x":817,
+    "y":260
+  },
+  "italia": {
+    "name":"Eisdiele Italia",
+    "x":759,
+    "y":247
+  },
+  "eisexpress": {
+    "name":"Eisexpress",
+    "x":758,
+    "y":259
+  },
+  "_821ad5": {
+    "name":"FePaLiMaBe",
+    "x":219,
+    "y":186
+  },
+  "fifa": {
+    "name":"Fifa Lounge",
+    "x":260,
+    "y":359
+  },
+  "studio": {
+    "name":"Fotostudio",
+    "x":393,
+    "y":583
+  },
+  "fr": {
+    "name":"Frankreich",
+    "x":37,
+    "y":539
+  },
+  "frozen": {
+    "name":"Frozen",
+    "x":224,
+    "y":373
+  },
+  "yogurt": {
+    "name":"Frozen",
+    "x":224,
+    "y":373
+  },
+  "frozen4all": {
+    "name":"Frozen for all",
+    "x":662,
+    "y":269
+  },
+  "eishaus": {
+    "name":"Giovanni's Eishaus",
+    "x":823,
+    "y":229
+  },
+  "_3c0b57": {
+    "name":"Groovie Smoothie",
+    "x":788,
+    "y":259
+  },
+  "gb": {
+    "name":"Großbritannien",
+    "x":37,
+    "y":562
+  },
+  "goenn": {
+    "name":"Gönn dir",
+    "x":219,
+    "y":113
+  },
+  "hwc": {
+    "name":"HWC",
+    "x":434,
+    "y":79
+  },
+  "_1530c9": {
+    "name":"Happy Frites",
+    "x":null,
+    "y":null
+  },
+  "henna": {
+    "name":"Henna & Co.",
+    "x":407,
+    "y":380
+  },
+  "holz": {
+    "name":"Holzwerkstatt",
+    "x":793,
+    "y":131
+  },
+  "hgmov": {
+    "name":"HöGy-Movie",
+    "x":698,
+    "y":164
+  },
+  "_6f53f0": {
+    "name":"Högy on Air",
+    "x":411,
+    "y":457
+  },
+  "drama": {
+    "name":"International Drama",
+    "x":null,
+    "y":null
+  },
+  "wette": {
+    "name":"Internationales Wettbüro",
+    "x":199,
+    "y":198
+  },
+  "it": {
+    "name":"Italien",
+    "x":37,
+    "y":496
+  },
+  "joli": {
+    "name":"Joli Desserts",
+    "x":694,
+    "y":372
+  },
+  "resch": {
+    "name":"K. Resch",
+    "x":653,
+    "y":335
+  },
+  "_90a4a9": {
+    "name":"Kleine Kunstwerkstadt",
+    "x":null,
+    "y":null
+  },
+  "erdogan": {
+    "name":"Konditorei Recept Erbogan",
+    "x":364,
+    "y":580
+  },
+  "korena": {
+    "name":"KorEna",
+    "x":628,
+    "y":127
+  },
+  "kurz": {
+    "name":"Kurz & bündig Nachhilfe",
+    "x":591,
+    "y":113
+  },
+  "lalc": {
+    "name":"LALC",
+    "x":137,
+    "y":217
+  },
+  "lacreperie": {
+    "name":"La Crêperie",
+    "x":668,
+    "y":361
+  },
+  "fleur": {
+    "name":"La Fleur",
+    "x":681,
+    "y":374
+  },
+  "fruit": {
+    "name":"Le Paradis du Fruit",
+    "x":651,
+    "y":348
+  },
+  "london": {
+    "name":"London Life",
+    "x":205,
+    "y":362
+  },
+  "_28ceb0": {
+    "name":"Lotto",
+    "x":555,
+    "y":578
+  },
+  "lucky": {
+    "name":"Lucky Jack Casino",
+    "x":629,
+    "y":83
+  },
+  "mandm": {
+    "name":"M&M Crêpes",
+    "x":708,
+    "y":364
+  },
+  "maxiskaner": {
+    "name":"Maxiskaner",
+    "x":89,
+    "y":212
+  },
+  "melone": {
+    "name":"Mc Melone",
+    "x":238,
+    "y":118
+  },
+  "moe": {
+    "name":"Moes Taverne",
+    "x":362,
+    "y":513
+  },
+  "moon": {
+    "name":"Moonbucks",
+    "x":657,
+    "y":243
+  },
+  "morgenstern": {
+    "name":"Morgenstern",
+    "x":null,
+    "y":null
+  },
+  "dinner": {
+    "name":"Movie Dinner",
+    "x":654,
+    "y":315
+  },
+  "traumhaft": {
+    "name":"N.N Traumhaft",
+    "x":422,
+    "y":396
+  },
+  "fotobunker": {
+    "name":"Olesenkos Fotobunker",
+    "x":null,
+    "y":null
+  },
+  "_98e98f": {
+    "name":"Orgateam",
+    "x":37,
+    "y":475
+  },
+  "pizza": {
+    "name":"Pizzamann",
+    "x":887,
+    "y":536
+  },
+  "regenbogen": {
+    "name":"Regenbogenbunte Crêpes",
+    "x":735,
+    "y":329
+  },
+  "remix": {
+    "name":"Remix",
+    "x":800,
+    "y":249
+  },
+  "leih": {
+    "name":"Rollleihmann Leihfirma",
+    "x":237,
+    "y":202
+  },
+  "wunderland": {
+    "name":"Schmidis Wunderland",
+    "x":37,
+    "y":475
+  },
+  "schmuck": {
+    "name":"Schmucklädle",
+    "x":192,
+    "y":116
+  },
+  "simi": {
+    "name":"Simitsarayi",
+    "x":369,
+    "y":526
+  },
+  "smoothie": {
+    "name":"Smoothie Stand",
+    "x":375,
+    "y":525
+  },
+  "_230d74": {
+    "name":"Smoothie Stand",
+    "x":375,
+    "y":525
+  },
+  "soleil": {
+    "name":"Soleil du sucrè",
+    "x":717,
+    "y":275
+  },
+  "_8b814c": {
+    "name":"Standesamt",
+    "x":543,
+    "y":537
+  },
+  "sub": {
+    "name":"Subwich",
+    "x":243,
+    "y":373
+  },
+  "succhi": {
+    "name":"Succhi di Frutta",
+    "x":772,
+    "y":248
+  },
+  "sucre": {
+    "name":"Sucrées et ni quante",
+    "x":729,
+    "y":373
+  },
+  "sun": {
+    "name":"Sun-Café",
+    "x":662,
+    "y":255
+  },
+  "_6c2603": {
+    "name":"Swag fries",
+    "x":null,
+    "y":null
+  },
+  "taxinc": {
+    "name":"Tax Income",
+    "x":null,
+    "y":null
+  },
+  "turktea": {
+    "name":"Tea Lounge",
+    "x":364,
+    "y":546
+  },
+  "teatime": {
+    "name":"Tea Time",
+    "x":48,
+    "y":173
+  },
+  "tea": {
+    "name":"Tee Küche",
+    "x":621,
+    "y":218
+  },
+  "movie": {
+    "name":"The Movie-Palace",
+    "x":null,
+    "y":null
+  },
+  "till": {
+    "name":"Till's Tea Time",
+    "x":260,
+    "y":340
+  },
+  "tr": {
+    "name":"Türkei",
+    "x":37,
+    "y":519
+  },
+  "turk": {
+    "name":"Türkisch bämbs",
+    "x":490,
+    "y":572
+  },
+  "turkcandy": {
+    "name":"Türkische Süßigkeiten",
+    "x":410,
+    "y":583
+  },
+  "schnellimbiss": {
+    "name":"Türkischer Schnellimbiss",
+    "x":367,
+    "y":594
+  },
+  "wp31": {
+    "name":"WP31 Wii Sports",
+    "x":629,
+    "y":102
+  },
+  "wl": {
+    "name":"Warenlager",
+    "x":791,
+    "y":161
+  },
+  "wurstyou": {
+    "name":"WeWillWurstYou",
+    "x":89,
+    "y":135
+  },
+  "_285342": {
+    "name":"WeWillWurstYou",
+    "x":51,
+    "y":133
+  },
+  "wolke7": {
+    "name":"Wolke 7",
+    "x":51,
+    "y":134
+  },
+  "wunderbar1": {
+    "name":"Wunderbar (Caroline)",
+    "x":831,
+    "y":192
+  },
+  "wunderbar2": {
+    "name":"Wunderbar (Emily)",
+    "x":828,
+    "y":249
+  },
+  "soccer": {
+    "name":"Wunderland Soccerpark",
+    "x":null,
+    "y":null
+  },
+  "wunderlands": {
+    "name":"Wunderlands",
+    "x":null,
+    "y":null
+  },
+  "wurschd": {
+    "name":"Wurschd & Durschd",
+    "x":50,
+    "y":213
+  },
+  "zeitung": {
+    "name":"Zeitung",
+    "x":525,
+    "y":570
+  },
+  "cb": {
+    "name":"Zentralbank",
+    "x":704,
+    "y":556
+  },
+  "Zentralbank": {
+    "name":"",
+    "x":704,
+    "y":556
+  },
+  "cb-besucher": {
+    "name":"Zentralbank Besuchergeld",
+    "x":null,
+    "y":null
+  },
+  "cb-fees": {
+    "name":"Zentralbank Gebühren",
+    "x":null,
+    "y":null
+  },
+  "cb-wechsel": {
+    "name":"Zentralbank Geldwechsel",
+    "x":null,
+    "y":null
+  },
+  "_e5ad45": {
+    "name":"chai seconten",
+    "x":null,
+    "y":null
+  }
+}

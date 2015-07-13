@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "FiraSans-Light";
+    src: url(FiraSans-Light.ttf) format("truetype");
+}
+
+body {
+	margin:0;
+	font-family:"FiraSans-Light", "Helvetica Neue", Arial, sans-serif;
+	text-align:center;
+}
+
+#visual {
+	background:#191;
+	border-radius:10px;
+	padding:20px;
+	padding-top:10px;
+	display:inline-block;
+	color:#fff;
+	font-family:"Fira Sans";
+	position:relative;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+	margin-top:20px;
+}
+
+#map {
+	background-image:url("map.png");
+	background-repeat:no-repeat;
+	height:622px;
+	width:1000px;
+	background-size:100%;
+	position:relative;
+	margin-top:180px;
+	border:2px solid black;
+}
+
+#cb_logo {
+	width:110px;
+	float:right;
+	margin-right:10px;
+}
+
+#date_center {
+	text-align:center;
+}
+
+#date {
+	margin-top:10px;
+	width:200px;
+	border:2px solid #000;
+	padding:4px;
+	margin-left:20px;
+}
+
+#days {
+	float:left;
+}
+
+#days .day {
+	border:2px solid black;
+	width:100px;
+	height:110px;
+	float:left;
+	margin-left:10px;
+	text-align:center;
+	background:rgba(0, 0, 0, 0.1);
+	cursor:pointer;
+}
+
+#days .day:hover {
+	background:rgba(0, 0, 0, 0.4);
+}
+
+#days .day .daystring {
+	font-size:60px;
+	margin-bottom:-15px;
+}
+
+#days .day .timestring {
+	font-size:20px;
+}
+
+#speed_container {
+	border:2px solid #000;
+	width:180px;
+	height:150px;
+	padding:8px;
+	text-align:center;
+	font-size:22px;
+	float:left;
+}
+
+#speed {
+	border:2px solid black;
+	background:#fff;
+	font-family:"Fira Sans";
+	font-size:18px;
+	padding:3px;
+	width:100%;
+}
+
+#path_container {
+	border:2px solid #000;
+	padding:8px;
+	float:left;
+	width:180px;
+	height:150px;
+	margin-left:10px;
+	text-align:center;
+	font-size:22px;
+}
+
+#path_container input[type="button"] {
+	border:2px solid black;
+	font-size:18px;
+	padding:4px;
+	width:100%;
+	margin-top:3px;
+	background:rgba(0, 0, 0, 0.1);
+	color:#fff;
+	cursor:pointer;
+	font-family:"Fira Sans";
+}
+
+#path_container input[type="button"]:hover {
+	background:rgba(0, 0, 0, 0.2);
+}
+
+#qrid {
+	border:2px solid black;
+	width:calc(100% - 16px);
+	font-size:18px;
+	padding:6px;
+}
+
+#explanation {
+	margin-top:8px;
+	font-size:15px;
+}
+
+@keyframes grow {
+	from {}
+	to {
+		transform:scale(10, 10);
+		opacity:0.0;
+	}
+}
+
+@keyframes shrink {
+	from {
+		transform:scale(10, 10);
+		opacity:0.0;
+	}
+	to {}
+}
+
+.transaction {
+	background-size:100%;
+	background-image:url("icon.png");
+	height:20px;
+	width:20px;
+	position:absolute;
+	display:inline-block;
+	animation-timing-function:ease;
+	animation-duration:2s;	
+}
+
+.outgoing {
+	animation-name:shrink;
+}
+
+.incoming {
+	animation-name:grow;
+}
