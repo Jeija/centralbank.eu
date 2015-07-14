@@ -89,6 +89,7 @@ setInterval(function () {
 
 var pathinterval = null;
 function showPath(qrid) {
+	if (pathinterval) clearInterval(pathinterval);
 	var canvas = $("#path")[0];
 	var context = canvas.getContext("2d");
 	context.clearRect(0, 0, canvas.width, canvas.height);
@@ -131,9 +132,12 @@ function showPath(qrid) {
 	context.strokeStyle = "#ff0099";
 	pathinterval = setInterval(function () {
 		i++;
+		if (!places[i]) {
+			clearInterval(pathinterval);
+			return;
+		}
 		path.lineTo(coords[places[i].place].x, coords[places[i].place].y);
 		context.stroke(path);
-		if (!places[i+1]) clearInterval(pathinterval);
 	}, 200);
 }
 
