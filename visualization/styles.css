@@ -16,7 +16,6 @@ body {
 	padding-top:10px;
 	display:inline-block;
 	color:#fff;
-	font-family:"Fira Sans";
 	position:relative;
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
 	margin-top:20px;
@@ -92,7 +91,7 @@ body {
 #speed {
 	border:2px solid black;
 	background:#fff;
-	font-family:"Fira Sans";
+	font-family:"FiraSans-Light";
 	font-size:18px;
 	padding:3px;
 	width:100%;
@@ -118,7 +117,7 @@ body {
 	background:rgba(0, 0, 0, 0.1);
 	color:#fff;
 	cursor:pointer;
-	font-family:"Fira Sans";
+	font-family:"FiraSans-Light";
 }
 
 #path_container input[type="button"]:hover {
